@@ -1,0 +1,183 @@
+<config>
+
+	<!-- Work Stations -->
+	<append xpath="/recipes">
+		<recipe name="hydroponicWick" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="15" />
+			<ingredient name="resourceWaterReservoir" count="1" />
+			<ingredient name="resourceWaterLine" count="4" />
+			<ingredient name="resourceGrowLight" count="2" />
+			<ingredient name="carBattery" count="1" />
+		</recipe>
+		<recipe name="hydroponicRack" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="28" />
+			<ingredient name="resourceWaterReservoir" count="2" />
+			<ingredient name="resourceWaterLine" count="8" />
+			<ingredient name="resourceGrowLight" count="4" />
+			<ingredient name="carBattery" count="2" />
+		</recipe>
+	</append>
+
+	<!-- Resources -->
+	<append xpath="/recipes">
+		<recipe name="resourceWaterReservoir" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceScrapPolymers" count="50" />
+			<ingredient name="resourceCoal" count="35" />
+		</recipe>
+		<recipe name="resourceWaterLine" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceScrapPolymers" count="24" />
+			<ingredient name="resourceMetalPipe" count="1" />
+		</recipe>
+		<recipe name="resourceGrowLight" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceScrapPolymers" count="10" />
+			<ingredient name="resourceElectricParts" count="2" />
+			<ingredient name="resourceForgedIron" count="2" />
+			<ingredient name="resourceGlue" count="5" />
+		</recipe>
+
+		<!-- 20 units will complete in 60 IRL minutes -->
+		<recipe name="resourceFertilizer" count="1" craft_time="180" craft_area="cementMixer" tags="learnable,workbenchCrafting">
+			<ingredient name="foodRottingFlesh" count="1" />
+			<ingredient name="resourcePotassiumNitratePowder" count="3" />
+			<ingredient name="resourceBone" count="3" />
+		</recipe>
+	</append>
+
+	<!-- Small Crop Bundles - 20: 20 seeds, 5 water, 10 fertilizer; completes in 60 IRL minutes -->
+	<append xpath="/recipes">
+		<recipe name="foodCropBlueberriesSmallBundle" count="1" craft_time="3600" craft_area="hydroponicWick">
+			<ingredient name="drinkJarBoiledWater" count="5" />
+			<ingredient name="resourceFertilizer" count="10" />
+			<ingredient name="plantedBlueberry1" count="20" />
+		</recipe>
+		<recipe name="resourceCropAloeLeafSmallBundle" count="1" craft_time="3600" craft_area="hydroponicWick">
+			<ingredient name="drinkJarBoiledWater" count="5" />
+			<ingredient name="resourceFertilizer" count="10" />
+			<ingredient name="plantedAloe1" count="20" />
+		</recipe>
+		<recipe name="resourceCropChrysanthemumPlantSmallBundle" count="1" craft_time="3600" craft_area="hydroponicWick">
+			<ingredient name="drinkJarBoiledWater" count="5" />
+			<ingredient name="resourceFertilizer" count="10" />
+			<ingredient name="plantedChrysanthemum1" count="20" />
+		</recipe>
+		<recipe name="resourceCropCoffeeBeansSmallBundle" count="1" craft_time="3600" craft_area="hydroponicWick">
+			<ingredient name="drinkJarBoiledWater" count="5" />
+			<ingredient name="resourceFertilizer" count="10" />
+			<ingredient name="plantedCoffee1" count="20" />
+		</recipe>
+		<recipe name="foodCropCornSmallBundle" count="1" craft_time="3600" craft_area="hydroponicWick">
+			<ingredient name="drinkJarBoiledWater" count="5" />
+			<ingredient name="resourceFertilizer" count="10" />
+			<ingredient name="plantedCorn1" count="20" />
+		</recipe>
+		<recipe name="resourceCropCottonPlantSmallBundle" count="1" craft_time="3600" craft_area="hydroponicWick">
+			<ingredient name="drinkJarBoiledWater" count="5" />
+			<ingredient name="resourceFertilizer" count="10" />
+			<ingredient name="plantedCotton1" count="20" />
+		</recipe>
+		<recipe name="resourceCropGoldenrodPlantSmallBundle" count="1" craft_time="3600" craft_area="hydroponicWick">
+			<ingredient name="drinkJarBoiledWater" count="5" />
+			<ingredient name="resourceFertilizer" count="10" />
+			<ingredient name="plantedGoldenrod1" count="20" />
+		</recipe>
+		<recipe name="resourceCropHopsFlowerSmallBundle" count="1" craft_time="3600" craft_area="hydroponicWick">
+			<ingredient name="drinkJarBoiledWater" count="5" />
+			<ingredient name="resourceFertilizer" count="10" />
+			<ingredient name="plantedHop1" count="20" />
+		</recipe>
+		<recipe name="foodCropMushroomsSmallBundle" count="1" craft_time="3600" craft_area="hydroponicWick">
+			<ingredient name="drinkJarBoiledWater" count="5" />
+			<ingredient name="resourceFertilizer" count="10" />
+			<ingredient name="plantedMushroom1" count="20" />
+		</recipe>
+		<recipe name="foodCropPotatoSmallBundle" count="1" craft_time="3600" craft_area="hydroponicWick">
+			<ingredient name="drinkJarBoiledWater" count="5" />
+			<ingredient name="resourceFertilizer" count="10" />
+			<ingredient name="plantedPotato1" count="20" />
+		</recipe>
+		<recipe name="foodCropPumpkinSmallBundle" count="1" craft_time="3600" craft_area="hydroponicWick">
+			<ingredient name="drinkJarBoiledWater" count="5" />
+			<ingredient name="resourceFertilizer" count="10" />
+			<ingredient name="plantedPumpkin1" count="20" />
+		</recipe>
+		<recipe name="foodCropYuccaFruitSmallBundle" count="1" craft_time="3600" craft_area="hydroponicWick">
+			<ingredient name="drinkJarBoiledWater" count="5" />
+			<ingredient name="resourceFertilizer" count="10" />
+			<ingredient name="plantedYucca1" count="20" />
+		</recipe>
+		<recipe name="foodCropGraceCornSmallBundle" count="1" craft_time="3600" craft_area="hydroponicWick">
+			<ingredient name="drinkJarBoiledWater" count="5" />
+			<ingredient name="resourceFertilizer" count="10" />
+			<ingredient name="plantedGraceCorn1" count="20" />
+		</recipe>
+	</append>
+
+	<!-- Large Crop Bundles - 48: 48 seeds, 10 water, 20 fertilizer; completes in 60 IRL minutes -->
+	<append xpath="/recipes">
+		<recipe name="foodCropBlueberriesLargeBundle" count="1" craft_time="3600" craft_area="hydroponicRack">
+			<ingredient name="drinkJarBoiledWater" count="10" />
+			<ingredient name="resourceFertilizer" count="20" />
+			<ingredient name="plantedBlueberry1" count="48" />
+		</recipe>
+		<recipe name="resourceCropAloeLeafLargeBundle" count="1" craft_time="3600" craft_area="hydroponicRack">
+			<ingredient name="drinkJarBoiledWater" count="10" />
+			<ingredient name="resourceFertilizer" count="20" />
+			<ingredient name="plantedAloe1" count="48" />
+		</recipe>
+		<recipe name="resourceCropChrysanthemumPlantLargeBundle" count="1" craft_time="3600" craft_area="hydroponicRack">
+			<ingredient name="drinkJarBoiledWater" count="10" />
+			<ingredient name="resourceFertilizer" count="20" />
+			<ingredient name="plantedChrysanthemum1" count="48" />
+		</recipe>
+		<recipe name="resourceCropCoffeeBeansLargeBundle" count="1" craft_time="3600" craft_area="hydroponicRack">
+			<ingredient name="drinkJarBoiledWater" count="10" />
+			<ingredient name="resourceFertilizer" count="20" />
+			<ingredient name="plantedCoffee1" count="48" />
+		</recipe>
+		<recipe name="foodCropCornLargeBundle" count="1" craft_time="3600" craft_area="hydroponicRack">
+			<ingredient name="drinkJarBoiledWater" count="10" />
+			<ingredient name="resourceFertilizer" count="20" />
+			<ingredient name="plantedCorn1" count="48" />
+		</recipe>
+		<recipe name="resourceCropCottonPlantLargeBundle" count="1" craft_time="3600" craft_area="hydroponicRack">
+			<ingredient name="drinkJarBoiledWater" count="10" />
+			<ingredient name="resourceFertilizer" count="20" />
+			<ingredient name="plantedCotton1" count="48" />
+		</recipe>
+		<recipe name="resourceCropGoldenrodPlantLargeBundle" count="1" craft_time="3600" craft_area="hydroponicRack">
+			<ingredient name="drinkJarBoiledWater" count="10" />
+			<ingredient name="resourceFertilizer" count="20" />
+			<ingredient name="plantedGoldenrod1" count="48" />
+		</recipe>
+		<recipe name="resourceCropHopsFlowerLargeBundle" count="1" craft_time="3600" craft_area="hydroponicRack">
+			<ingredient name="drinkJarBoiledWater" count="10" />
+			<ingredient name="resourceFertilizer" count="20" />
+			<ingredient name="plantedHop1" count="48" />
+		</recipe>
+		<recipe name="foodCropMushroomsLargeBundle" count="1" craft_time="3600" craft_area="hydroponicRack">
+			<ingredient name="drinkJarBoiledWater" count="10" />
+			<ingredient name="resourceFertilizer" count="20" />
+			<ingredient name="plantedMushroom1" count="48" />
+		</recipe>
+		<recipe name="foodCropPotatoLargeBundle" count="1" craft_time="3600" craft_area="hydroponicRack">
+			<ingredient name="drinkJarBoiledWater" count="10" />
+			<ingredient name="resourceFertilizer" count="20" />
+			<ingredient name="plantedPotato1" count="48" />
+		</recipe>
+		<recipe name="foodCropPumpkinLargeBundle" count="1" craft_time="3600" craft_area="hydroponicRack">
+			<ingredient name="drinkJarBoiledWater" count="10" />
+			<ingredient name="resourceFertilizer" count="20" />
+			<ingredient name="plantedPumpkin1" count="48" />
+		</recipe>
+		<recipe name="foodCropYuccaFruitLargeBundle" count="1" craft_time="3600" craft_area="hydroponicRack">
+			<ingredient name="drinkJarBoiledWater" count="10" />
+			<ingredient name="resourceFertilizer" count="20" />
+			<ingredient name="plantedYucca1" count="48" />
+		</recipe>
+		<recipe name="foodCropGraceCornLargeBundle" count="1" craft_time="3600" craft_area="hydroponicRack">
+			<ingredient name="drinkJarBoiledWater" count="10" />
+			<ingredient name="resourceFertilizer" count="20" />
+			<ingredient name="plantedGraceCorn1" count="48" />
+		</recipe>
+	</append>
+</config>

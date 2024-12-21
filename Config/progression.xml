@@ -1,0 +1,4 @@
+<config>
+	<csv xpath="//crafting_skill[@name='craftingWorkstations']/display_entry/unlock_entry[starts-with(@item,'cementMixer')]/@item" op="Add">hydroponicWick,hydroponicRack,resourceGrowLight,resourceWaterLine,resourceWaterReservoir</csv>
+	<csv xpath="//crafting_skill[@name='craftingWorkstations']/effect_group/passive_effect[starts-with(@tags,'cementMixer')]/@tags" op="Add">hydroponicWick,hydroponicRack,resourceGrowLight,resourceWaterLine,resourceWaterReservoir</csv>
+</config>
