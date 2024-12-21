@@ -1,0 +1,12 @@
+<config>
+
+    <!-- Hydroponic Workstations -->
+    <append xpath="/ui_display_info/crafting_category_display">
+        <crafting_category_list display_type="hydroponicWick">
+            <crafting_category name="HydroponicWick" icon="ui_game_symbol_crops" display_name="lblCategoryHydroponicWick" />
+        </crafting_category_list>
+        <crafting_category_list display_type="hydroponicRack">
+            <crafting_category name="HydroponicRack" icon="ui_game_symbol_crops" display_name="lblCategoryHydroponicRack" />
+        </crafting_category_list>
+    </append>
+</config>

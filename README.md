@@ -7,22 +7,51 @@
 
 ## Summary
 
-7 Days to Die Mod: add Hydroponics features based on [Midnight's Hydroponics Mod](https://7daystodiemods.com/midnights-hydroponics/).
+7 Days to Die Mod: add Hydroponics features inspired by [Midnight's Hydroponics Mod](https://7daystodiemods.com/midnights-hydroponics/).
 
 ## Features
 
-1. TODO
-2. TODO
+This crafting mod introduces the `Hydroponics Wick` and `Hydroponics Rack` as new ways to craft (grow) crops indoors.
+
+| Recipe             | How To Unlock       | Crafted At      | Description                                         |
+| ------------------ | ------------------- | --------------- | --------------------------------------------------- |
+| Hydroponic Wick    | Workstations lvl 30 | Workbench       | Workstation used to produce Small Crop Bundles      |
+| Hydroponic Rack    | Workstations lvl 30 | Workbench       | Workstation used to produce Large Crop Bundles      |
+| Water Reservoir    | Workstations lvl 30 | Workbench       | Component used in constructing Hydroponic Wick/Rack |
+| Water Line         | Workstations lvl 30 | Workbench       | Component used in constructing Hydroponic Wick/Rack |
+| Grow Light         | Workstations lvl 30 | Workbench       | Component used in constructing Hydroponic Wick/Rack |
+| Fertilizer         | Not Locked          | Cement Mixer    | Component used in crafting (growing) Crop Bundles   |
+| Small Crop Bundles | Not Locked          | Hydroponic Wick | Unpackable collection of 120 crops                  |
+| Large Crop Bundles | Not Locked          | Hydroponic Rack | Unpackable collection of 288 crops                  |
+
+> - Crafting your own `Hydroponic Wicks` and `Racks` will unlock at `Workbench Level 30`, making this more of a mid-game feature.
+> - `Cement Mixer` recipe is also learned at `Workstations lvl 30`, which will be necessary for composting `Fertilizer`.
+> - `Fertilizer` and crop bundle recipes are intentionally unlocked for all players at the beginning of the game, which makes it possible to tend to a friend's Hydroponic stations even at a very low level.
+> - `Small` and `Large Crop Bundles` take 1 hour of real-world time to craft.
+> - The ratio of seeds-to-crops is a consistent 1:6, making this a better exchange rate for inexperienced farmers, but not as good for max level `Living Off the Land` farmers with full Farmer gear.
+
+### Benefits
+
+- simple management; no manual labor!
+- great exchange rate of 1:6 seeds-to-crops in the early-mid game
+- safe from snipers on PVP servers
+- no need to plan an above-ground farm
+
+### Drawbacks
+
+- no benefits received from `Living Off the Land` or Farmer's gear
+- exchange rate of 1:6 seeds-to-crops can be beaten with the right skill level in `Living Off the Land` and a full set of Farmer's gear
+- added overhead of having to craft `Fertilizer` can build up over time (rotting flesh, potassium nitrate, and bones are fairly easy to gather but can be hard to farm consistently over time)
 
 ## Compatibility
 
 | Environment          | Compatible | Does EAC Need to be Disabled? | Who needs to install? |
 | -------------------- | ---------- | ----------------------------- | --------------------- |
 | Dedicated Server     | Yes        | no                            | only server           |
-| Peer-to-Peer Hosting | Yes        | only for host                 | only host             |
-| Single Player Game   | Yes        | Yes                           | self (of course)      |
+| Peer-to-Peer Hosting | Yes        | no                            | only host             |
+| Single Player Game   | Yes        | no                            | self (of course)      |
 
 ## Acknowledgements
 
-- Much thanks to `Midnight` for her awesome idea and original implementation of Hydroponics in 7 Days to Die!
-  - This mod is mostly just an updated version of her mod with bug fixes and a few adjustments that help to integrate it with my server.
+- Much thanks to `Midnight` for her awesome idea and original implementation of a Hydroponics mod in 7 Days to Die!
+  - This mod is inspired by her mod and includes a different approach; be sure to also [check out what Midnight made](https://7daystodiemods.com/midnights-hydroponics/) since you might prefer her mod over this one.
