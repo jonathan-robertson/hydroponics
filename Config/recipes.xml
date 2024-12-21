@@ -36,7 +36,7 @@
 		</recipe>
 
 		<!-- 20 units will complete in 60 IRL minutes -->
-		<recipe name="resourceFertilizer" count="1" craft_time="180" craft_area="cementMixer" tags="learnable,workbenchCrafting">
+		<recipe name="resourceFertilizer" count="1" craft_time="180" craft_area="cementMixer">
 			<ingredient name="foodRottingFlesh" count="1" />
 			<ingredient name="resourcePotassiumNitratePowder" count="3" />
 			<ingredient name="resourceBone" count="3" />
